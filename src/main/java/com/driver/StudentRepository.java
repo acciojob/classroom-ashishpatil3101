@@ -21,7 +21,7 @@ public class StudentRepository {
 
     }
 
-    public void addTeacher(@RequestBody Teacher teacher){
+    public void addTeacher( Teacher teacher){
 
        teacherdb.put(teacher.getName(),teacher);
 
